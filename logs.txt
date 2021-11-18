@@ -1,0 +1,798 @@
+
+
+Time: 2021-11-08 00:37:14 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 00:37:14 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 00:37:14 +0530 | Info: Item     Quantity   Price
+
+Time: 2021-11-08 00:37:14 +0530 | Error of type NoMethodError : undefined method `item' for #<Hash:0x00007f9d37017878>: Backtrace:
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/display_result.rb:11:in `block in show_result'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/display_result.rb:10:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/display_result.rb:10:in `show_result'
+solution.rb:18:in `calculate'
+solution.rb:28:in `<main>'
+
+Time: 2021-11-08 00:39:49 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 00:39:49 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 00:39:49 +0530 | Info: Item     Quantity   Price
+
+Time: 2021-11-08 00:39:49 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-08 00:39:49 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-08 00:39:49 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-08 00:39:49 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-08 00:39:49 +0530 | Info: Total price : $19.02
+
+Time: 2021-11-08 00:39:49 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-08 00:40:01 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 00:40:01 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 00:40:01 +0530 | Info: Item     Quantity   Price
+
+Time: 2021-11-08 00:40:01 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-08 00:40:01 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-08 00:40:01 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-08 00:40:01 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-08 00:40:01 +0530 | Info:
+Total price : $19.02
+
+Time: 2021-11-08 00:40:01 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-08 00:40:11 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 00:40:11 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 00:40:11 +0530 | Info:
+Item     Quantity   Price
+
+Time: 2021-11-08 00:40:11 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-08 00:40:11 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-08 00:40:11 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-08 00:40:11 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-08 00:40:11 +0530 | Info:
+Total price : $19.02
+
+Time: 2021-11-08 00:40:11 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-08 00:40:46 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 00:40:46 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 00:40:46 +0530 | Info:
+Item     Quantity   Price                ---------------------------
+
+Time: 2021-11-08 00:40:46 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-08 00:40:46 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-08 00:40:46 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-08 00:40:46 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-08 00:40:46 +0530 | Info:
+Total price : $19.02
+
+Time: 2021-11-08 00:40:46 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-08 00:40:57 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 00:40:57 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 00:40:57 +0530 | Info:
+Item     Quantity   Price
+
+                ---------------------------
+
+Time: 2021-11-08 00:40:57 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-08 00:40:57 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-08 00:40:57 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-08 00:40:57 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-08 00:40:57 +0530 | Info:
+Total price : $19.02
+
+Time: 2021-11-08 00:40:57 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-08 00:41:08 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 00:41:08 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 00:41:08 +0530 | Info:
+Item     Quantity   Price
+ ---------------------------
+
+Time: 2021-11-08 00:41:08 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-08 00:41:08 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-08 00:41:08 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-08 00:41:08 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-08 00:41:08 +0530 | Info:
+Total price : $19.02
+
+Time: 2021-11-08 00:41:08 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-08 00:41:20 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 00:41:20 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 00:41:20 +0530 | Info:
+Item     Quantity   Price
+---------------------------
+
+Time: 2021-11-08 00:41:20 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-08 00:41:20 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-08 00:41:20 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-08 00:41:20 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-08 00:41:20 +0530 | Info:
+Total price : $19.02
+
+Time: 2021-11-08 00:41:20 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-08 12:29:06 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 12:29:06 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 12:29:06 +0530 | Info:
+Item     Quantity   Price
+---------------------------
+
+Time: 2021-11-08 12:29:06 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-08 12:29:06 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-08 12:29:06 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-08 12:29:06 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-08 12:29:06 +0530 | Info:
+Total price : $19.02
+
+Time: 2021-11-08 12:29:06 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-08 18:43:38 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 18:43:38 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 18:43:38 +0530 | Error of type NoMethodError : Error message: undefined method `get_item_week_price' for CalculatorHelper:Module: Backtrace:
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:12:in `block in calculate_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:10:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:10:in `calculate_price'
+solution.rb:15:in `calculate'
+solution.rb:29:in `<main>'
+
+Time: 2021-11-08 18:43:45 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 18:43:45 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 18:43:45 +0530 | Error of type NoMethodError : Error message: undefined method `get_item_week_price' for CalculatorHelper:Module: Backtrace:
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:12:in `block in calculate_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:10:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:10:in `calculate_price'
+solution.rb:15:in `calculate'
+solution.rb:29:in `<main>'
+
+Time: 2021-11-08 18:44:41 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 18:44:41 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 18:44:41 +0530 | Error of type NoMethodError : Error message: undefined method `get_item_week_price' for CalculatorHelper:Module: Backtrace:
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:12:in `block in calculate_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:10:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:10:in `calculate_price'
+solution.rb:15:in `calculate'
+solution.rb:30:in `<main>'
+
+Time: 2021-11-08 18:45:14 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 18:45:14 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 18:45:14 +0530 | Error of type NoMethodError : Error message: undefined method `get_item_week_price' for CalculatorHelper:Module: Backtrace:
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:12:in `block in calculate_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:10:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:10:in `calculate_price'
+solution.rb:15:in `calculate'
+solution.rb:31:in `<main>'
+
+Time: 2021-11-08 18:46:39 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 18:46:39 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 18:46:39 +0530 | Error of type NoMethodError : Error message: undefined method `get_item_week_price' for CalculatorHelper:Module: Backtrace:
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:12:in `block in calculate_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:10:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:10:in `calculate_price'
+solution.rb:15:in `calculate'
+solution.rb:31:in `<main>'
+
+Time: 2021-11-08 18:48:16 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 18:48:16 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 18:48:16 +0530 | Error of type NoMethodError : Error message: undefined method `get_item_week_price' for CalculatorHelper:Module: Backtrace:
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:12:in `block in calculate_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:10:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:10:in `calculate_price'
+solution.rb:15:in `calculate'
+solution.rb:31:in `<main>'
+
+Time: 2021-11-08 18:48:40 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 18:48:40 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 18:48:40 +0530 | Error of type NoMethodError : Error message: undefined method `get_item_week_price' for CalculatorHelper:Module: Backtrace:
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:12:in `block in calculate_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:10:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:10:in `calculate_price'
+solution.rb:15:in `calculate'
+solution.rb:31:in `<main>'
+
+Time: 2021-11-08 18:49:32 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 18:49:32 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 18:49:32 +0530 | Error of type NoMethodError : Error message: undefined method `get_item_week_price' for CalculatorHelper:Module: Backtrace:
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:32:in `block in calculate_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:30:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:30:in `calculate_price'
+solution.rb:15:in `calculate'
+solution.rb:31:in `<main>'
+
+Time: 2021-11-08 18:51:20 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 18:51:20 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 18:51:20 +0530 | Error of type NameError : Error message: undefined local variable or method `quantity' for CalculatorHelper:Module: Backtrace:
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:35:in `get_item_prices'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:13:in `block in calculate_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:10:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:10:in `calculate_price'
+solution.rb:15:in `calculate'
+solution.rb:31:in `<main>'
+
+Time: 2021-11-08 18:52:07 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 18:52:07 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 18:52:07 +0530 | Info:
+Item     Quantity   Price
+---------------------------
+
+Time: 2021-11-08 18:52:07 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-08 18:52:07 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-08 18:52:07 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-08 18:52:07 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-08 18:52:07 +0530 | Info:
+Total price : $19.02
+
+Time: 2021-11-08 18:52:07 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-08 18:58:18 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 18:58:18 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 18:58:18 +0530 | Error of type NameError : Error message: undefined local variable or method `week_price' for CalculatorHelper:Class: Backtrace:
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:17:in `block in calculate_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:15:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:15:in `calculate_price'
+solution.rb:15:in `calculate'
+solution.rb:31:in `<main>'
+
+Time: 2021-11-08 18:58:59 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 18:58:59 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 18:58:59 +0530 | Error of type NoMethodError : Error message: undefined method `find' for nil:NilClass: Backtrace:
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:32:in `get_item_week_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:17:in `block in calculate_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:15:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:15:in `calculate_price'
+solution.rb:15:in `calculate'
+solution.rb:31:in `<main>'
+
+Time: 2021-11-08 18:59:50 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 18:59:50 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 18:59:50 +0530 | Error of type NoMethodError : Error message: undefined method `find' for nil:NilClass: Backtrace:
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:32:in `get_item_week_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:17:in `block in calculate_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:15:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:15:in `calculate_price'
+solution.rb:15:in `calculate'
+solution.rb:31:in `<main>'
+
+Time: 2021-11-08 19:00:57 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 19:00:57 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 19:00:57 +0530 | Info:
+Item     Quantity   Price
+---------------------------
+
+Time: 2021-11-08 19:00:57 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-08 19:00:57 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-08 19:00:57 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-08 19:00:57 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-08 19:00:57 +0530 | Info:
+Total price : $19.02
+
+Time: 2021-11-08 19:00:57 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-08 19:05:37 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 19:05:37 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 19:05:37 +0530 | Error of type NoMethodError : Error message: undefined method `calculate_price' for #<CalculatorHelper:0x00007fa4530fdbe8>: Backtrace: 
+ solution.rb:16:in `calculate'
+solution.rb:32:in `<main>' 
+
+Time: 2021-11-08 19:06:09 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 19:06:09 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 19:06:09 +0530 | Error of type NameError : Error message: undefined local variable or method `items_by_count' for #<CalculatorHelper:0x00007fcdd480df50>
+Did you mean?  @items_by_count: Backtrace: 
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:16:in `calculate_price'
+solution.rb:16:in `calculate'
+solution.rb:32:in `<main>' 
+
+Time: 2021-11-08 19:06:29 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 19:06:29 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 19:06:29 +0530 | Error of type NoMethodError : Error message: undefined method `get_item_week_price' for #<CalculatorHelper:0x00007fc7a8824c00>: Backtrace: 
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:18:in `block in calculate_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:16:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:16:in `calculate_price'
+solution.rb:16:in `calculate'
+solution.rb:32:in `<main>' 
+
+Time: 2021-11-08 19:06:51 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-08 19:06:51 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-08 19:06:51 +0530 | Info: 
+Item     Quantity   Price 
+---------------------------
+
+Time: 2021-11-08 19:06:51 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-08 19:06:51 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-08 19:06:51 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-08 19:06:51 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-08 19:06:51 +0530 | Info: 
+Total price : $19.02
+
+Time: 2021-11-08 19:06:51 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-09 18:22:39 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple", "aaaa"]}
+
+Time: 2021-11-09 18:22:39 +0530 | Error of type NoMethodError : Error message: undefined method `item' for #<Hash:0x00007f8d27019af8>: Backtrace: 
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/read_input.rb:17:in `map'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/read_input.rb:17:in `read_item_list'
+solution.rb:12:in `calculate'
+solution.rb:32:in `<main>' 
+
+Time: 2021-11-09 18:25:30 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple", "aaaa"]}
+
+Time: 2021-11-09 18:25:30 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-09 18:25:30 +0530 | Info: 
+Item     Quantity   Price 
+---------------------------
+
+Time: 2021-11-09 18:25:30 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-09 18:25:30 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-09 18:25:30 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-09 18:25:30 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-09 18:25:30 +0530 | Info: 
+Total price : $19.02
+
+Time: 2021-11-09 18:25:30 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-09 18:25:44 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple", "aaaa"]}
+
+Time: 2021-11-09 18:25:44 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1, "aaaa"=>1}}
+
+Time: 2021-11-09 18:25:44 +0530 | Error of type NoMethodError : Error message: undefined method `[]' for nil:NilClass: Backtrace: 
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:40:in `get_item_prices'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:17:in `block in calculate_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:14:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:14:in `calculate_price'
+solution.rb:16:in `calculate'
+solution.rb:32:in `<main>' 
+
+Time: 2021-11-09 18:26:57 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple"]}
+
+Time: 2021-11-09 18:26:57 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-09 18:26:57 +0530 | Info: 
+Item     Quantity   Price 
+---------------------------
+
+Time: 2021-11-09 18:26:57 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-09 18:26:57 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-09 18:26:57 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-09 18:26:57 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-09 18:26:57 +0530 | Info: 
+Total price : $19.02
+
+Time: 2021-11-09 18:26:57 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-09 18:27:59 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple", "aaaa"]}
+
+Time: 2021-11-09 18:27:59 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1, "aaaa"=>1}}
+
+Time: 2021-11-09 18:27:59 +0530 | Error of type NoMethodError : Error message: undefined method `try' for #<Hash:0x00007f91b60e9418>: Backtrace: 
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:40:in `get_item_prices'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:17:in `block in calculate_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:14:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:14:in `calculate_price'
+solution.rb:16:in `calculate'
+solution.rb:32:in `<main>' 
+
+Time: 2021-11-09 18:34:30 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple", "aaaa"]}
+
+Time: 2021-11-09 18:34:30 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1, "aaaa"=>1}}
+
+Time: 2021-11-09 18:34:30 +0530 | Error of type NoMethodError : Error message: undefined method `try' for #<Hash:0x00007ff8770ea7a0>: Backtrace: 
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:40:in `get_item_prices'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:17:in `block in calculate_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:14:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:14:in `calculate_price'
+solution.rb:16:in `calculate'
+solution.rb:32:in `<main>' 
+
+Time: 2021-11-09 18:35:38 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple", "aaaa"]}
+
+Time: 2021-11-09 18:35:38 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1, "aaaa"=>1}}
+
+Time: 2021-11-09 18:35:38 +0530 | Error of type NoMethodError : Error message: undefined method `dig' for nil:NilClass: Backtrace: 
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:40:in `get_item_prices'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:17:in `block in calculate_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:14:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:14:in `calculate_price'
+solution.rb:16:in `calculate'
+solution.rb:32:in `<main>' 
+
+Time: 2021-11-09 18:38:08 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple", "aaaa"]}
+
+Time: 2021-11-09 18:38:08 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1, "aaaa"=>1}}
+
+Time: 2021-11-09 18:38:08 +0530 | Error of type NoMethodError : Error message: undefined method `has_key?' for nil:NilClass: Backtrace: 
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:40:in `get_item_prices'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:17:in `block in calculate_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:14:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:14:in `calculate_price'
+solution.rb:16:in `calculate'
+solution.rb:32:in `<main>' 
+
+Time: 2021-11-09 18:38:34 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple", "aaaa"]}
+
+Time: 2021-11-09 18:38:34 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1, "aaaa"=>1}}
+
+Time: 2021-11-09 18:38:34 +0530 | Error of type NoMethodError : Error message: undefined method `[]' for nil:NilClass: Backtrace: 
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:46:in `get_item_prices'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:17:in `block in calculate_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:14:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:14:in `calculate_price'
+solution.rb:16:in `calculate'
+solution.rb:32:in `<main>' 
+
+Time: 2021-11-09 18:38:59 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple", "aaaa"]}
+
+Time: 2021-11-09 18:38:59 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1, "aaaa"=>1}}
+
+Time: 2021-11-09 18:38:59 +0530 | Error of type NoMethodError : Error message: undefined method `try' for #<Hash:0x00007fc62a016830>: Backtrace: 
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:40:in `get_item_prices'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:17:in `block in calculate_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:14:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:14:in `calculate_price'
+solution.rb:16:in `calculate'
+solution.rb:32:in `<main>' 
+
+Time: 2021-11-09 18:39:46 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple", "aaaa"]}
+
+Time: 2021-11-09 18:39:46 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1, "aaaa"=>1}}
+
+Time: 2021-11-09 18:39:46 +0530 | Error of type NoMethodError : Error message: undefined method `[]' for nil:NilClass: Backtrace: 
+ /Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:46:in `get_item_prices'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:17:in `block in calculate_price'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:14:in `each'
+/Users/c_aksharma/Documents/projects/ruby_apps/ror-akkisharma/price_calculator_challange/calculator_helper.rb:14:in `calculate_price'
+solution.rb:16:in `calculate'
+solution.rb:32:in `<main>' 
+
+Time: 2021-11-09 18:40:53 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple", "aaaa"]}
+
+Time: 2021-11-09 18:40:53 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1, "aaaa"=>1}}
+
+Time: 2021-11-09 18:40:53 +0530 | Info: 
+Item     Quantity   Price 
+---------------------------
+
+Time: 2021-11-09 18:40:53 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-09 18:40:53 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-09 18:40:53 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-09 18:40:53 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-09 18:40:53 +0530 | Info: aaaa      1     0
+
+Time: 2021-11-09 18:40:53 +0530 | Info: 
+Total price : $19.02
+
+Time: 2021-11-09 18:40:53 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-09 18:41:09 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple", "aaaa"]}
+
+Time: 2021-11-09 18:41:09 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-09 18:41:09 +0530 | Info: 
+Item     Quantity   Price 
+---------------------------
+
+Time: 2021-11-09 18:41:09 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-09 18:41:09 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-09 18:41:09 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-09 18:41:09 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-09 18:41:09 +0530 | Info: 
+Total price : $19.02
+
+Time: 2021-11-09 18:41:09 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-09 18:45:15 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple", "aaaa"]}
+
+Time: 2021-11-09 18:45:15 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-09 18:45:15 +0530 | Info: 
+Item     Quantity   Price 
+---------------------------
+
+Time: 2021-11-09 18:45:15 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-09 18:45:15 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-09 18:45:15 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-09 18:45:15 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-09 18:45:15 +0530 | Info: 
+Total price : $19.02
+
+Time: 2021-11-09 18:45:15 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-09 18:46:19 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple", "aaaa"]}
+
+Time: 2021-11-09 18:46:19 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-09 18:46:19 +0530 | Info: 
+Item     Quantity   Price 
+---------------------------
+
+Time: 2021-11-09 18:46:19 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-09 18:46:19 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-09 18:46:19 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-09 18:46:19 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-09 18:46:19 +0530 | Info: 
+Total price : $19.02
+
+Time: 2021-11-09 18:46:19 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-09 18:47:49 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple", "aaaa"]}
+
+Time: 2021-11-09 18:47:49 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-09 18:47:49 +0530 | Info: 
+Item     Quantity   Price 
+---------------------------
+
+Time: 2021-11-09 18:47:49 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-09 18:47:49 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-09 18:47:49 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-09 18:47:49 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-09 18:47:49 +0530 | Info: 
+Total price : $19.02
+
+Time: 2021-11-09 18:47:49 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-09 18:48:37 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple", "aaaa"]}
+
+Time: 2021-11-09 18:48:37 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-09 18:48:37 +0530 | Info: 
+Item     Quantity   Price 
+---------------------------
+
+Time: 2021-11-09 18:48:37 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-09 18:48:37 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-09 18:48:37 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-09 18:48:37 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-09 18:48:37 +0530 | Info: 
+Total price : $19.02
+
+Time: 2021-11-09 18:48:37 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-09 18:49:43 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple", "aaaa"]}
+
+Time: 2021-11-09 18:49:43 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-09 18:49:43 +0530 | Info: 
+Item     Quantity   Price 
+---------------------------
+
+Time: 2021-11-09 18:49:43 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-09 18:49:43 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-09 18:49:43 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-09 18:49:43 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-09 18:49:43 +0530 | Info: 
+Total price : $19.02
+
+Time: 2021-11-09 18:49:43 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-09 18:53:24 +0530 | Info: {:item_list=>[]}
+
+Time: 2021-11-09 18:53:24 +0530 | Info: {:items_by_count=>{}}
+
+Time: 2021-11-09 18:53:24 +0530 | Info: 
+Item     Quantity   Price 
+---------------------------
+
+Time: 2021-11-09 18:53:24 +0530 | Info: 
+Total price : $0
+
+Time: 2021-11-09 18:53:24 +0530 | Info: You saved $0 today.
+
+Time: 2021-11-09 18:54:27 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple", "aaaa"]}
+
+Time: 2021-11-09 18:54:27 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-09 18:54:27 +0530 | Info: 
+Item     Quantity   Price 
+---------------------------
+
+Time: 2021-11-09 18:54:27 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-09 18:54:27 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-09 18:54:27 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-09 18:54:27 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-09 18:54:27 +0530 | Info: 
+Total price : $19.02
+
+Time: 2021-11-09 18:54:27 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-09 18:55:04 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple", "aaaa"]}
+
+Time: 2021-11-09 18:55:04 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-09 18:55:04 +0530 | Info: 
+Item     Quantity   Price 
+---------------------------
+
+Time: 2021-11-09 18:55:04 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-09 18:55:04 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-09 18:55:04 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-09 18:55:04 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-09 18:55:04 +0530 | Info: 
+Total price : $19.02
+
+Time: 2021-11-09 18:55:04 +0530 | Info: You saved $3.45 today.
+
+Time: 2021-11-09 18:55:18 +0530 | Info: {:item_list=>[]}
+
+Time: 2021-11-09 18:55:18 +0530 | Info: {:items_by_count=>{}}
+
+Time: 2021-11-09 18:55:18 +0530 | Info: 
+Item     Quantity   Price 
+---------------------------
+
+Time: 2021-11-09 18:56:04 +0530 | Info: {:item_list=>[]}
+
+Time: 2021-11-09 18:56:04 +0530 | Info: {:items_by_count=>{}}
+
+Time: 2021-11-09 18:56:04 +0530 | Info: 
+Item     Quantity   Price 
+---------------------------
+
+Time: 2021-11-09 18:56:10 +0530 | Info: {:item_list=>[]}
+
+Time: 2021-11-09 18:56:10 +0530 | Info: {:items_by_count=>{}}
+
+Time: 2021-11-09 18:56:10 +0530 | Info: 
+Item     Quantity   Price 
+---------------------------
+
+Time: 2021-11-09 18:56:28 +0530 | Info: {:item_list=>["milk", "milk", "bread", "banana", "bread", "bread", "bread", "milk", "apple", "aaaa"]}
+
+Time: 2021-11-09 18:56:28 +0530 | Info: {:items_by_count=>{"milk"=>3, "bread"=>4, "banana"=>1, "apple"=>1}}
+
+Time: 2021-11-09 18:56:28 +0530 | Info: 
+Item     Quantity   Price 
+---------------------------
+
+Time: 2021-11-09 18:56:28 +0530 | Info: milk      3     8.97
+
+Time: 2021-11-09 18:56:28 +0530 | Info: bread      4     8.17
+
+Time: 2021-11-09 18:56:28 +0530 | Info: banana      1     0.99
+
+Time: 2021-11-09 18:56:28 +0530 | Info: apple      1     0.89
+
+Time: 2021-11-09 18:56:28 +0530 | Info: 
+Total price : $19.02
+
+Time: 2021-11-09 18:56:28 +0530 | Info: You saved $3.45 today.
